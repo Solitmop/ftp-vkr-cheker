@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"ftpVkrChecker/internal/ftp_server"
-	"ftpVkrChecker/internal/institute"
-	"ftpVkrChecker/internal/vkr"
+	"github.com/solitmop/ftp-vkr-checker/internal/ftp_server"
+	"github.com/solitmop/ftp-vkr-checker/internal/institute"
+	"github.com/solitmop/ftp-vkr-checker/internal/vkr"
 )
 
 func main() {

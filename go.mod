@@ -1,4 +1,4 @@
-module ftpVkrChecker
+module github.com/solitmop/ftp-vkr-checker
 
 go 1.26
 

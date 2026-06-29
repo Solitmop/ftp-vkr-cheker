@@ -2,14 +2,14 @@ package vkr
 
 import (
 	"errors"
-	"ftpVkrChecker/internal/excel"
 	"log"
 	"slices"
 	"sort"
 	"strings"
 	"fmt"
-
+	
 	"github.com/jlaffaye/ftp"
+	"github.com/solitmop/ftp-vkr-checker/internal/excel"
 )
 
 func CheckPath(path string, ftpClient *ftp.ServerConn) error {
